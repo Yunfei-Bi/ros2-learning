@@ -1,0 +1,4 @@
+source;share/demo_cpp_tf/local_setup.bash
+source;share/demo_cpp_tf/local_setup.dsv
+source;share/demo_cpp_tf/local_setup.sh
+source;share/demo_cpp_tf/local_setup.zsh

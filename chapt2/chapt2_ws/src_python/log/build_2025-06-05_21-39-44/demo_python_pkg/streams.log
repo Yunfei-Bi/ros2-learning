@@ -1,0 +1,27 @@
+[0.431s] Invoking command in '/home/yunfeibi/Ros_projects/ros2-learning/chapt2/chapt2_ws/src_python/demo_python_pkg': PYTHONPATH=/home/yunfeibi/Ros_projects/ros2-learning/chapt2/chapt2_ws/src_python/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yunfeibi/Ros_projects/ros2-learning/chapt2/chapt2_ws/src_python/install/demo_python_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/demo_python_pkg build --build-base /home/yunfeibi/Ros_projects/ros2-learning/chapt2/chapt2_ws/src_python/build/demo_python_pkg/build install --record /home/yunfeibi/Ros_projects/ros2-learning/chapt2/chapt2_ws/src_python/build/demo_python_pkg/install.log --install-scripts $base/lib/demo_python_pkg --single-version-externally-managed install_data
+[0.568s] running egg_info
+[0.568s] writing ../build/demo_python_pkg/demo_python_pkg.egg-info/PKG-INFO
+[0.569s] writing dependency_links to ../build/demo_python_pkg/demo_python_pkg.egg-info/dependency_links.txt
+[0.569s] writing entry points to ../build/demo_python_pkg/demo_python_pkg.egg-info/entry_points.txt
+[0.569s] writing requirements to ../build/demo_python_pkg/demo_python_pkg.egg-info/requires.txt
+[0.569s] writing top-level names to ../build/demo_python_pkg/demo_python_pkg.egg-info/top_level.txt
+[0.590s] reading manifest file '../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[0.591s] writing manifest file '../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[0.591s] running build
+[0.591s] running build_py
+[0.591s] copying demo_python_pkg/writer_node.py -> /home/yunfeibi/Ros_projects/ros2-learning/chapt2/chapt2_ws/src_python/build/demo_python_pkg/build/lib/demo_python_pkg
+[0.592s] running install
+[0.592s] running install_lib
+[0.593s] copying /home/yunfeibi/Ros_projects/ros2-learning/chapt2/chapt2_ws/src_python/build/demo_python_pkg/build/lib/demo_python_pkg/writer_node.py -> /home/yunfeibi/Ros_projects/ros2-learning/chapt2/chapt2_ws/src_python/install/demo_python_pkg/lib/python3.8/site-packages/demo_python_pkg
+[0.593s] byte-compiling /home/yunfeibi/Ros_projects/ros2-learning/chapt2/chapt2_ws/src_python/install/demo_python_pkg/lib/python3.8/site-packages/demo_python_pkg/writer_node.py to writer_node.cpython-38.pyc
+[0.594s] running install_data
+[0.594s] running install_egg_info
+[0.595s] removing '/home/yunfeibi/Ros_projects/ros2-learning/chapt2/chapt2_ws/src_python/install/demo_python_pkg/lib/python3.8/site-packages/demo_python_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[0.595s] Copying ../build/demo_python_pkg/demo_python_pkg.egg-info to /home/yunfeibi/Ros_projects/ros2-learning/chapt2/chapt2_ws/src_python/install/demo_python_pkg/lib/python3.8/site-packages/demo_python_pkg-0.0.0-py3.8.egg-info
+[0.596s] running install_scripts
+[0.606s] Installing learn_thread script to /home/yunfeibi/Ros_projects/ros2-learning/chapt2/chapt2_ws/src_python/install/demo_python_pkg/lib/demo_python_pkg
+[0.606s] Installing person_node script to /home/yunfeibi/Ros_projects/ros2-learning/chapt2/chapt2_ws/src_python/install/demo_python_pkg/lib/demo_python_pkg
+[0.606s] Installing python_node script to /home/yunfeibi/Ros_projects/ros2-learning/chapt2/chapt2_ws/src_python/install/demo_python_pkg/lib/demo_python_pkg
+[0.606s] Installing writer_node script to /home/yunfeibi/Ros_projects/ros2-learning/chapt2/chapt2_ws/src_python/install/demo_python_pkg/lib/demo_python_pkg
+[0.607s] writing list of installed files to '/home/yunfeibi/Ros_projects/ros2-learning/chapt2/chapt2_ws/src_python/build/demo_python_pkg/install.log'
+[0.620s] Invoked command in '/home/yunfeibi/Ros_projects/ros2-learning/chapt2/chapt2_ws/src_python/demo_python_pkg' returned '0': PYTHONPATH=/home/yunfeibi/Ros_projects/ros2-learning/chapt2/chapt2_ws/src_python/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yunfeibi/Ros_projects/ros2-learning/chapt2/chapt2_ws/src_python/install/demo_python_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/demo_python_pkg build --build-base /home/yunfeibi/Ros_projects/ros2-learning/chapt2/chapt2_ws/src_python/build/demo_python_pkg/build install --record /home/yunfeibi/Ros_projects/ros2-learning/chapt2/chapt2_ws/src_python/build/demo_python_pkg/install.log --install-scripts $base/lib/demo_python_pkg --single-version-externally-managed install_data

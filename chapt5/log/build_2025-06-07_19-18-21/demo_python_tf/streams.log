@@ -1,0 +1,45 @@
+[0.478s] Invoking command in '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/demo_python_tf': PYTHONPATH=/home/yunfeibi/Ros_projects/ros2-learning/chapt5/build/demo_python_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_python_tf/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/demo_python_tf build --build-base /home/yunfeibi/Ros_projects/ros2-learning/chapt5/build/demo_python_tf/build install --record /home/yunfeibi/Ros_projects/ros2-learning/chapt5/build/demo_python_tf/install.log --single-version-externally-managed install_data
+[0.627s] running egg_info
+[0.628s] creating ../build/demo_python_tf/demo_python_tf.egg-info
+[0.628s] writing ../build/demo_python_tf/demo_python_tf.egg-info/PKG-INFO
+[0.628s] writing dependency_links to ../build/demo_python_tf/demo_python_tf.egg-info/dependency_links.txt
+[0.628s] writing entry points to ../build/demo_python_tf/demo_python_tf.egg-info/entry_points.txt
+[0.628s] writing requirements to ../build/demo_python_tf/demo_python_tf.egg-info/requires.txt
+[0.628s] writing top-level names to ../build/demo_python_tf/demo_python_tf.egg-info/top_level.txt
+[0.629s] writing manifest file '../build/demo_python_tf/demo_python_tf.egg-info/SOURCES.txt'
+[0.652s] reading manifest file '../build/demo_python_tf/demo_python_tf.egg-info/SOURCES.txt'
+[0.652s] writing manifest file '../build/demo_python_tf/demo_python_tf.egg-info/SOURCES.txt'
+[0.652s] running build
+[0.652s] running build_py
+[0.653s] creating /home/yunfeibi/Ros_projects/ros2-learning/chapt5/build/demo_python_tf/build
+[0.653s] creating /home/yunfeibi/Ros_projects/ros2-learning/chapt5/build/demo_python_tf/build/lib
+[0.653s] creating /home/yunfeibi/Ros_projects/ros2-learning/chapt5/build/demo_python_tf/build/lib/demo_python_tf
+[0.653s] copying demo_python_tf/tf_listener.py -> /home/yunfeibi/Ros_projects/ros2-learning/chapt5/build/demo_python_tf/build/lib/demo_python_tf
+[0.653s] copying demo_python_tf/static_tf_broadcaster.py -> /home/yunfeibi/Ros_projects/ros2-learning/chapt5/build/demo_python_tf/build/lib/demo_python_tf
+[0.653s] copying demo_python_tf/__init__.py -> /home/yunfeibi/Ros_projects/ros2-learning/chapt5/build/demo_python_tf/build/lib/demo_python_tf
+[0.653s] copying demo_python_tf/dynamic_tf_broadcaster.py -> /home/yunfeibi/Ros_projects/ros2-learning/chapt5/build/demo_python_tf/build/lib/demo_python_tf
+[0.653s] running install
+[0.653s] running install_lib
+[0.654s] creating /home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_python_tf/lib/python3.8/site-packages/demo_python_tf
+[0.654s] copying /home/yunfeibi/Ros_projects/ros2-learning/chapt5/build/demo_python_tf/build/lib/demo_python_tf/tf_listener.py -> /home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_python_tf/lib/python3.8/site-packages/demo_python_tf
+[0.654s] copying /home/yunfeibi/Ros_projects/ros2-learning/chapt5/build/demo_python_tf/build/lib/demo_python_tf/static_tf_broadcaster.py -> /home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_python_tf/lib/python3.8/site-packages/demo_python_tf
+[0.654s] copying /home/yunfeibi/Ros_projects/ros2-learning/chapt5/build/demo_python_tf/build/lib/demo_python_tf/__init__.py -> /home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_python_tf/lib/python3.8/site-packages/demo_python_tf
+[0.654s] copying /home/yunfeibi/Ros_projects/ros2-learning/chapt5/build/demo_python_tf/build/lib/demo_python_tf/dynamic_tf_broadcaster.py -> /home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_python_tf/lib/python3.8/site-packages/demo_python_tf
+[0.654s] byte-compiling /home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_python_tf/lib/python3.8/site-packages/demo_python_tf/tf_listener.py to tf_listener.cpython-38.pyc
+[0.655s] byte-compiling /home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_python_tf/lib/python3.8/site-packages/demo_python_tf/static_tf_broadcaster.py to static_tf_broadcaster.cpython-38.pyc
+[0.656s] byte-compiling /home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_python_tf/lib/python3.8/site-packages/demo_python_tf/__init__.py to __init__.cpython-38.pyc
+[0.656s] byte-compiling /home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_python_tf/lib/python3.8/site-packages/demo_python_tf/dynamic_tf_broadcaster.py to dynamic_tf_broadcaster.cpython-38.pyc
+[0.656s] running install_data
+[0.656s] creating /home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_python_tf/share/ament_index
+[0.656s] creating /home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_python_tf/share/ament_index/resource_index
+[0.656s] creating /home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_python_tf/share/ament_index/resource_index/packages
+[0.656s] copying resource/demo_python_tf -> /home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_python_tf/share/ament_index/resource_index/packages
+[0.656s] copying package.xml -> /home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_python_tf/share/demo_python_tf
+[0.656s] running install_egg_info
+[0.657s] Copying ../build/demo_python_tf/demo_python_tf.egg-info to /home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_python_tf/lib/python3.8/site-packages/demo_python_tf-0.0.0-py3.8.egg-info
+[0.658s] running install_scripts
+[0.669s] Installing dynamic_tf_broadcaster script to /home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_python_tf/lib/demo_python_tf
+[0.669s] Installing static_tf_broadcaster script to /home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_python_tf/lib/demo_python_tf
+[0.669s] Installing tf_listener script to /home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_python_tf/lib/demo_python_tf
+[0.669s] writing list of installed files to '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/build/demo_python_tf/install.log'
+[0.682s] Invoked command in '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/demo_python_tf' returned '0': PYTHONPATH=/home/yunfeibi/Ros_projects/ros2-learning/chapt5/build/demo_python_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_python_tf/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/demo_python_tf build --build-base /home/yunfeibi/Ros_projects/ros2-learning/chapt5/build/demo_python_tf/build install --record /home/yunfeibi/Ros_projects/ros2-learning/chapt5/build/demo_python_tf/install.log --single-version-externally-managed install_data

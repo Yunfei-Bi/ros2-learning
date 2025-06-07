@@ -1,0 +1,45 @@
+running egg_info
+creating ../build/demo_python_service/demo_python_service.egg-info
+writing ../build/demo_python_service/demo_python_service.egg-info/PKG-INFO
+writing dependency_links to ../build/demo_python_service/demo_python_service.egg-info/dependency_links.txt
+writing entry points to ../build/demo_python_service/demo_python_service.egg-info/entry_points.txt
+writing requirements to ../build/demo_python_service/demo_python_service.egg-info/requires.txt
+writing top-level names to ../build/demo_python_service/demo_python_service.egg-info/top_level.txt
+writing manifest file '../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+reading manifest file '../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+writing manifest file '../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/yunfeibi/Ros_projects/ros2-learning/chapt4/build/demo_python_service/build
+creating /home/yunfeibi/Ros_projects/ros2-learning/chapt4/build/demo_python_service/build/lib
+creating /home/yunfeibi/Ros_projects/ros2-learning/chapt4/build/demo_python_service/build/lib/demo_python_service
+copying demo_python_service/learn_face_detect.py -> /home/yunfeibi/Ros_projects/ros2-learning/chapt4/build/demo_python_service/build/lib/demo_python_service
+copying demo_python_service/face_detect_node.py -> /home/yunfeibi/Ros_projects/ros2-learning/chapt4/build/demo_python_service/build/lib/demo_python_service
+copying demo_python_service/__init__.py -> /home/yunfeibi/Ros_projects/ros2-learning/chapt4/build/demo_python_service/build/lib/demo_python_service
+copying demo_python_service/face_detect_client_node.py -> /home/yunfeibi/Ros_projects/ros2-learning/chapt4/build/demo_python_service/build/lib/demo_python_service
+running install
+running install_lib
+creating /home/yunfeibi/Ros_projects/ros2-learning/chapt4/install/demo_python_service/lib/python3.8/site-packages/demo_python_service
+copying /home/yunfeibi/Ros_projects/ros2-learning/chapt4/build/demo_python_service/build/lib/demo_python_service/learn_face_detect.py -> /home/yunfeibi/Ros_projects/ros2-learning/chapt4/install/demo_python_service/lib/python3.8/site-packages/demo_python_service
+copying /home/yunfeibi/Ros_projects/ros2-learning/chapt4/build/demo_python_service/build/lib/demo_python_service/face_detect_node.py -> /home/yunfeibi/Ros_projects/ros2-learning/chapt4/install/demo_python_service/lib/python3.8/site-packages/demo_python_service
+copying /home/yunfeibi/Ros_projects/ros2-learning/chapt4/build/demo_python_service/build/lib/demo_python_service/__init__.py -> /home/yunfeibi/Ros_projects/ros2-learning/chapt4/install/demo_python_service/lib/python3.8/site-packages/demo_python_service
+copying /home/yunfeibi/Ros_projects/ros2-learning/chapt4/build/demo_python_service/build/lib/demo_python_service/face_detect_client_node.py -> /home/yunfeibi/Ros_projects/ros2-learning/chapt4/install/demo_python_service/lib/python3.8/site-packages/demo_python_service
+byte-compiling /home/yunfeibi/Ros_projects/ros2-learning/chapt4/install/demo_python_service/lib/python3.8/site-packages/demo_python_service/learn_face_detect.py to learn_face_detect.cpython-38.pyc
+byte-compiling /home/yunfeibi/Ros_projects/ros2-learning/chapt4/install/demo_python_service/lib/python3.8/site-packages/demo_python_service/face_detect_node.py to face_detect_node.cpython-38.pyc
+byte-compiling /home/yunfeibi/Ros_projects/ros2-learning/chapt4/install/demo_python_service/lib/python3.8/site-packages/demo_python_service/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/yunfeibi/Ros_projects/ros2-learning/chapt4/install/demo_python_service/lib/python3.8/site-packages/demo_python_service/face_detect_client_node.py to face_detect_client_node.cpython-38.pyc
+running install_data
+creating /home/yunfeibi/Ros_projects/ros2-learning/chapt4/install/demo_python_service/share
+creating /home/yunfeibi/Ros_projects/ros2-learning/chapt4/install/demo_python_service/share/ament_index
+creating /home/yunfeibi/Ros_projects/ros2-learning/chapt4/install/demo_python_service/share/ament_index/resource_index
+creating /home/yunfeibi/Ros_projects/ros2-learning/chapt4/install/demo_python_service/share/ament_index/resource_index/packages
+copying resource/demo_python_service -> /home/yunfeibi/Ros_projects/ros2-learning/chapt4/install/demo_python_service/share/ament_index/resource_index/packages
+creating /home/yunfeibi/Ros_projects/ros2-learning/chapt4/install/demo_python_service/share/demo_python_service
+copying package.xml -> /home/yunfeibi/Ros_projects/ros2-learning/chapt4/install/demo_python_service/share/demo_python_service
+running install_egg_info
+Copying ../build/demo_python_service/demo_python_service.egg-info to /home/yunfeibi/Ros_projects/ros2-learning/chapt4/install/demo_python_service/lib/python3.8/site-packages/demo_python_service-0.0.0-py3.8.egg-info
+running install_scripts
+Installing face_detect_client_node script to /home/yunfeibi/Ros_projects/ros2-learning/chapt4/install/demo_python_service/lib/demo_python_service
+Installing face_detect_node script to /home/yunfeibi/Ros_projects/ros2-learning/chapt4/install/demo_python_service/lib/demo_python_service
+Installing learn_face_detect script to /home/yunfeibi/Ros_projects/ros2-learning/chapt4/install/demo_python_service/lib/demo_python_service
+writing list of installed files to '/home/yunfeibi/Ros_projects/ros2-learning/chapt4/build/demo_python_service/install.log'

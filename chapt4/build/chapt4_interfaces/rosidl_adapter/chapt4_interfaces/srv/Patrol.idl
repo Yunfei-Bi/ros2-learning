@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from chapt4_interfaces/srv/Patrol.srv
+// generated code does not contain a copyright notice
+
+
+module chapt4_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      " 请求部分（客户端发送给服务器）")
+    struct Patrol_Request {
+      @verbatim (language="comment", text=
+        " 目标 x 值")
+      float target_x;
+
+      @verbatim (language="comment", text=
+        " 目标 y 值")
+      float target_y;
+    };
+    module Patrol_Response_Constants {
+      const int8 SUCCESS = 1;
+      const int8 FAIL = 0;
+    };
+    @verbatim (language="comment", text=
+      " 响应部分（服务器返回给客户端）")
+    struct Patrol_Response {
+      @verbatim (language="comment", text=
+        " 处理结果")
+      int8 result;
+    };
+  };
+};

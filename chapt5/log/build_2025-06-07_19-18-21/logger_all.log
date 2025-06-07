@@ -1,0 +1,178 @@
+[0.128s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.128s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f497a191610>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f497a191610>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f497a00dc10>)
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.239s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yunfeibi/Ros_projects/ros2-learning/chapt5'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(demo_cpp_tf) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(demo_cpp_tf) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(demo_cpp_tf) by extension 'ignore_ament_install'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(demo_cpp_tf) by extensions ['colcon_pkg']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(demo_cpp_tf) by extension 'colcon_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(demo_cpp_tf) by extensions ['colcon_meta']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(demo_cpp_tf) by extension 'colcon_meta'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(demo_cpp_tf) by extensions ['ros']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(demo_cpp_tf) by extension 'ros'
+[0.249s] DEBUG:colcon.colcon_core.package_identification:Package 'demo_cpp_tf' with type 'ros.ament_cmake' and name 'demo_cpp_tf'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(demo_python_tf) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(demo_python_tf) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(demo_python_tf) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(demo_python_tf) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(demo_python_tf) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(demo_python_tf) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(demo_python_tf) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(demo_python_tf) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(demo_python_tf) by extension 'ros'
+[0.250s] DEBUG:colcon.colcon_core.package_identification:Package 'demo_python_tf' with type 'ros.ament_python' and name 'demo_python_tf'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.268s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/rolling
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'demo_cpp_tf' build argument 'cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'demo_cpp_tf' build argument 'cmake_target' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'demo_cpp_tf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'demo_cpp_tf' build argument 'cmake_clean_cache' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'demo_cpp_tf' build argument 'cmake_clean_first' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'demo_cpp_tf' build argument 'cmake_force_configure' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'demo_cpp_tf' build argument 'ament_cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'demo_cpp_tf' build argument 'catkin_cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'demo_cpp_tf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.314s] DEBUG:colcon.colcon_core.verb:Building package 'demo_cpp_tf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/build/demo_cpp_tf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_cpp_tf', 'merge_install': False, 'path': '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/demo_cpp_tf', 'symlink_install': False, 'test_result_base': None}
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'demo_python_tf' build argument 'cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'demo_python_tf' build argument 'cmake_target' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'demo_python_tf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'demo_python_tf' build argument 'cmake_clean_cache' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'demo_python_tf' build argument 'cmake_clean_first' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'demo_python_tf' build argument 'cmake_force_configure' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'demo_python_tf' build argument 'ament_cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'demo_python_tf' build argument 'catkin_cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'demo_python_tf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.314s] DEBUG:colcon.colcon_core.verb:Building package 'demo_python_tf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/build/demo_python_tf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_python_tf', 'merge_install': False, 'path': '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/demo_python_tf', 'symlink_install': False, 'test_result_base': None}
+[0.314s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.315s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.315s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/demo_cpp_tf' with build type 'ament_cmake'
+[0.316s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/demo_cpp_tf'
+[0.317s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.317s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.317s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.321s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/demo_python_tf' with build type 'ament_python'
+[0.321s] Level 1:colcon.colcon_core.shell:create_environment_hook('demo_python_tf', 'ament_prefix_path')
+[0.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_python_tf/share/demo_python_tf/hook/ament_prefix_path.ps1'
+[0.322s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_python_tf/share/demo_python_tf/hook/ament_prefix_path.dsv'
+[0.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_python_tf/share/demo_python_tf/hook/ament_prefix_path.sh'
+[0.323s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.323s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.329s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/build/demo_cpp_tf': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake /home/yunfeibi/Ros_projects/ros2-learning/chapt5/demo_cpp_tf -DCMAKE_INSTALL_PREFIX=/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_cpp_tf
+[0.492s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/demo_python_tf'
+[0.492s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.492s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.799s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/demo_python_tf': PYTHONPATH=/home/yunfeibi/Ros_projects/ros2-learning/chapt5/build/demo_python_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_python_tf/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/demo_python_tf build --build-base /home/yunfeibi/Ros_projects/ros2-learning/chapt5/build/demo_python_tf/build install --record /home/yunfeibi/Ros_projects/ros2-learning/chapt5/build/demo_python_tf/install.log --single-version-externally-managed install_data
+[1.003s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/demo_python_tf' returned '0': PYTHONPATH=/home/yunfeibi/Ros_projects/ros2-learning/chapt5/build/demo_python_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_python_tf/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/demo_python_tf build --build-base /home/yunfeibi/Ros_projects/ros2-learning/chapt5/build/demo_python_tf/build install --record /home/yunfeibi/Ros_projects/ros2-learning/chapt5/build/demo_python_tf/install.log --single-version-externally-managed install_data
+[1.005s] Level 1:colcon.colcon_core.environment:checking '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_python_tf' for CMake module files
+[1.006s] Level 1:colcon.colcon_core.environment:checking '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_python_tf' for CMake config files
+[1.006s] Level 1:colcon.colcon_core.environment:checking '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_python_tf/lib'
+[1.006s] Level 1:colcon.colcon_core.environment:checking '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_python_tf/bin'
+[1.007s] Level 1:colcon.colcon_core.environment:checking '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_python_tf/lib/pkgconfig/demo_python_tf.pc'
+[1.007s] Level 1:colcon.colcon_core.environment:checking '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_python_tf/lib/python3.8/site-packages'
+[1.007s] Level 1:colcon.colcon_core.shell:create_environment_hook('demo_python_tf', 'pythonpath')
+[1.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_python_tf/share/demo_python_tf/hook/pythonpath.ps1'
+[1.007s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_python_tf/share/demo_python_tf/hook/pythonpath.dsv'
+[1.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_python_tf/share/demo_python_tf/hook/pythonpath.sh'
+[1.008s] Level 1:colcon.colcon_core.environment:checking '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_python_tf/bin'
+[1.008s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(demo_python_tf)
+[1.008s] INFO:colcon.colcon_core.shell:Creating package script '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_python_tf/share/demo_python_tf/package.ps1'
+[1.009s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_python_tf/share/demo_python_tf/package.dsv'
+[1.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_python_tf/share/demo_python_tf/package.sh'
+[1.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_python_tf/share/demo_python_tf/package.bash'
+[1.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_python_tf/share/demo_python_tf/package.zsh'
+[1.011s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_python_tf/share/colcon-core/packages/demo_python_tf)
+[1.577s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/build/demo_cpp_tf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake /home/yunfeibi/Ros_projects/ros2-learning/chapt5/demo_cpp_tf -DCMAKE_INSTALL_PREFIX=/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_cpp_tf
+[1.580s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/build/demo_cpp_tf': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/yunfeibi/Ros_projects/ros2-learning/chapt5/build/demo_cpp_tf -- -j12 -l12
+[8.089s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/build/demo_cpp_tf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/yunfeibi/Ros_projects/ros2-learning/chapt5/build/demo_cpp_tf -- -j12 -l12
+[8.103s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/build/demo_cpp_tf': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /home/yunfeibi/Ros_projects/ros2-learning/chapt5/build/demo_cpp_tf
+[8.119s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(demo_cpp_tf)
+[8.119s] Level 1:colcon.colcon_core.environment:checking '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_cpp_tf' for CMake module files
+[8.119s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/build/demo_cpp_tf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /home/yunfeibi/Ros_projects/ros2-learning/chapt5/build/demo_cpp_tf
+[8.120s] Level 1:colcon.colcon_core.environment:checking '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_cpp_tf' for CMake config files
+[8.120s] Level 1:colcon.colcon_core.shell:create_environment_hook('demo_cpp_tf', 'cmake_prefix_path')
+[8.120s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_cpp_tf/share/demo_cpp_tf/hook/cmake_prefix_path.ps1'
+[8.121s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_cpp_tf/share/demo_cpp_tf/hook/cmake_prefix_path.dsv'
+[8.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_cpp_tf/share/demo_cpp_tf/hook/cmake_prefix_path.sh'
+[8.122s] Level 1:colcon.colcon_core.environment:checking '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_cpp_tf/lib'
+[8.122s] Level 1:colcon.colcon_core.environment:checking '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_cpp_tf/bin'
+[8.122s] Level 1:colcon.colcon_core.environment:checking '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_cpp_tf/lib/pkgconfig/demo_cpp_tf.pc'
+[8.122s] Level 1:colcon.colcon_core.environment:checking '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_cpp_tf/lib/python3.8/site-packages'
+[8.122s] Level 1:colcon.colcon_core.environment:checking '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_cpp_tf/bin'
+[8.122s] INFO:colcon.colcon_core.shell:Creating package script '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_cpp_tf/share/demo_cpp_tf/package.ps1'
+[8.123s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_cpp_tf/share/demo_cpp_tf/package.dsv'
+[8.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_cpp_tf/share/demo_cpp_tf/package.sh'
+[8.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_cpp_tf/share/demo_cpp_tf/package.bash'
+[8.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_cpp_tf/share/demo_cpp_tf/package.zsh'
+[8.124s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_cpp_tf/share/colcon-core/packages/demo_cpp_tf)
+[8.125s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(demo_cpp_tf)
+[8.125s] Level 1:colcon.colcon_core.environment:checking '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_cpp_tf' for CMake module files
+[8.126s] Level 1:colcon.colcon_core.environment:checking '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_cpp_tf' for CMake config files
+[8.126s] Level 1:colcon.colcon_core.shell:create_environment_hook('demo_cpp_tf', 'cmake_prefix_path')
+[8.126s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_cpp_tf/share/demo_cpp_tf/hook/cmake_prefix_path.ps1'
+[8.127s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_cpp_tf/share/demo_cpp_tf/hook/cmake_prefix_path.dsv'
+[8.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_cpp_tf/share/demo_cpp_tf/hook/cmake_prefix_path.sh'
+[8.127s] Level 1:colcon.colcon_core.environment:checking '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_cpp_tf/lib'
+[8.128s] Level 1:colcon.colcon_core.environment:checking '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_cpp_tf/bin'
+[8.128s] Level 1:colcon.colcon_core.environment:checking '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_cpp_tf/lib/pkgconfig/demo_cpp_tf.pc'
+[8.128s] Level 1:colcon.colcon_core.environment:checking '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_cpp_tf/lib/python3.8/site-packages'
+[8.128s] Level 1:colcon.colcon_core.environment:checking '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_cpp_tf/bin'
+[8.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_cpp_tf/share/demo_cpp_tf/package.ps1'
+[8.128s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_cpp_tf/share/demo_cpp_tf/package.dsv'
+[8.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_cpp_tf/share/demo_cpp_tf/package.sh'
+[8.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_cpp_tf/share/demo_cpp_tf/package.bash'
+[8.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_cpp_tf/share/demo_cpp_tf/package.zsh'
+[8.130s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/demo_cpp_tf/share/colcon-core/packages/demo_cpp_tf)
+[8.130s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.130s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.130s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.130s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.136s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.136s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.136s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.153s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.153s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/local_setup.ps1'
+[8.154s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/_local_setup_util_ps1.py'
+[8.156s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/setup.ps1'
+[8.157s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/local_setup.sh'
+[8.157s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/_local_setup_util_sh.py'
+[8.158s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/setup.sh'
+[8.158s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/local_setup.bash'
+[8.159s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/setup.bash'
+[8.160s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/local_setup.zsh'
+[8.160s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yunfeibi/Ros_projects/ros2-learning/chapt5/install/setup.zsh'

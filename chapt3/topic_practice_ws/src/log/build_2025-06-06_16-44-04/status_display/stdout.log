@@ -1,0 +1,76 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found status_interfaces: 0.0.0 (/home/yunfeibi/Ros_projects/ros2-learning/chapt3/topic_practice_ws/src/install/status_interfaces/share/status_interfaces/cmake)
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yunfeibi/Ros_projects/ros2-learning/chapt3/topic_practice_ws/src/build/status_display
+[35m[1mScanning dependencies of target hello_qt[0m
+[35m[1mScanning dependencies of target sys_status_display[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/hello_qt.dir/src/hello_qt.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable hello_qt[0m
+[ 75%] Built target hello_qt
+[100%] [32m[1mLinking CXX executable sys_status_display[0m
+[100%] Built target sys_status_display
+-- Install configuration: ""
+-- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt3/topic_practice_ws/src/install/status_display/lib/status_display/hello_qt
+-- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt3/topic_practice_ws/src/install/status_display/lib/status_display/sys_status_display
+-- Set runtime path of "/home/yunfeibi/Ros_projects/ros2-learning/chapt3/topic_practice_ws/src/install/status_display/lib/status_display/sys_status_display" to ""
+-- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt3/topic_practice_ws/src/install/status_display/share/ament_index/resource_index/package_run_dependencies/status_display
+-- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt3/topic_practice_ws/src/install/status_display/share/ament_index/resource_index/parent_prefix_path/status_display
+-- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt3/topic_practice_ws/src/install/status_display/share/status_display/environment/ament_prefix_path.sh
+-- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt3/topic_practice_ws/src/install/status_display/share/status_display/environment/ament_prefix_path.dsv
+-- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt3/topic_practice_ws/src/install/status_display/share/status_display/environment/path.sh
+-- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt3/topic_practice_ws/src/install/status_display/share/status_display/environment/path.dsv
+-- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt3/topic_practice_ws/src/install/status_display/share/status_display/local_setup.bash
+-- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt3/topic_practice_ws/src/install/status_display/share/status_display/local_setup.sh
+-- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt3/topic_practice_ws/src/install/status_display/share/status_display/local_setup.zsh
+-- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt3/topic_practice_ws/src/install/status_display/share/status_display/local_setup.dsv
+-- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt3/topic_practice_ws/src/install/status_display/share/status_display/package.dsv
+-- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt3/topic_practice_ws/src/install/status_display/share/ament_index/resource_index/packages/status_display
+-- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt3/topic_practice_ws/src/install/status_display/share/status_display/cmake/status_displayConfig.cmake
+-- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt3/topic_practice_ws/src/install/status_display/share/status_display/cmake/status_displayConfig-version.cmake
+-- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt3/topic_practice_ws/src/install/status_display/share/status_display/package.xml

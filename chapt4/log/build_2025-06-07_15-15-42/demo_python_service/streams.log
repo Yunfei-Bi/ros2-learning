@@ -1,0 +1,47 @@
+[0.439s] Invoking command in '/home/yunfeibi/Ros_projects/ros2-learning/chapt4/demo_python_service': CONDA_PROMPT_MODIFIER=(yxros) PYTHONPATH=/home/yunfeibi/Ros_projects/ros2-learning/chapt4/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yunfeibi/Ros_projects/ros2-learning/chapt4/install/demo_python_service/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/demo_python_service build --build-base /home/yunfeibi/Ros_projects/ros2-learning/chapt4/build/demo_python_service/build install --record /home/yunfeibi/Ros_projects/ros2-learning/chapt4/build/demo_python_service/install.log --install-scripts $base/lib/demo_python_service --single-version-externally-managed install_data
+[0.581s] running egg_info
+[0.581s] creating ../build/demo_python_service/demo_python_service.egg-info
+[0.581s] writing ../build/demo_python_service/demo_python_service.egg-info/PKG-INFO
+[0.582s] writing dependency_links to ../build/demo_python_service/demo_python_service.egg-info/dependency_links.txt
+[0.582s] writing entry points to ../build/demo_python_service/demo_python_service.egg-info/entry_points.txt
+[0.582s] writing requirements to ../build/demo_python_service/demo_python_service.egg-info/requires.txt
+[0.582s] writing top-level names to ../build/demo_python_service/demo_python_service.egg-info/top_level.txt
+[0.583s] writing manifest file '../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[0.604s] reading manifest file '../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[0.604s] writing manifest file '../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[0.604s] running build
+[0.605s] running build_py
+[0.605s] creating /home/yunfeibi/Ros_projects/ros2-learning/chapt4/build/demo_python_service/build
+[0.605s] creating /home/yunfeibi/Ros_projects/ros2-learning/chapt4/build/demo_python_service/build/lib
+[0.605s] creating /home/yunfeibi/Ros_projects/ros2-learning/chapt4/build/demo_python_service/build/lib/demo_python_service
+[0.605s] copying demo_python_service/learn_face_detect.py -> /home/yunfeibi/Ros_projects/ros2-learning/chapt4/build/demo_python_service/build/lib/demo_python_service
+[0.605s] copying demo_python_service/face_detect_node.py -> /home/yunfeibi/Ros_projects/ros2-learning/chapt4/build/demo_python_service/build/lib/demo_python_service
+[0.605s] copying demo_python_service/__init__.py -> /home/yunfeibi/Ros_projects/ros2-learning/chapt4/build/demo_python_service/build/lib/demo_python_service
+[0.605s] copying demo_python_service/face_detect_client_node.py -> /home/yunfeibi/Ros_projects/ros2-learning/chapt4/build/demo_python_service/build/lib/demo_python_service
+[0.605s] running install
+[0.605s] running install_lib
+[0.606s] creating /home/yunfeibi/Ros_projects/ros2-learning/chapt4/install/demo_python_service/lib/python3.8/site-packages/demo_python_service
+[0.606s] copying /home/yunfeibi/Ros_projects/ros2-learning/chapt4/build/demo_python_service/build/lib/demo_python_service/learn_face_detect.py -> /home/yunfeibi/Ros_projects/ros2-learning/chapt4/install/demo_python_service/lib/python3.8/site-packages/demo_python_service
+[0.606s] copying /home/yunfeibi/Ros_projects/ros2-learning/chapt4/build/demo_python_service/build/lib/demo_python_service/face_detect_node.py -> /home/yunfeibi/Ros_projects/ros2-learning/chapt4/install/demo_python_service/lib/python3.8/site-packages/demo_python_service
+[0.606s] copying /home/yunfeibi/Ros_projects/ros2-learning/chapt4/build/demo_python_service/build/lib/demo_python_service/__init__.py -> /home/yunfeibi/Ros_projects/ros2-learning/chapt4/install/demo_python_service/lib/python3.8/site-packages/demo_python_service
+[0.606s] copying /home/yunfeibi/Ros_projects/ros2-learning/chapt4/build/demo_python_service/build/lib/demo_python_service/face_detect_client_node.py -> /home/yunfeibi/Ros_projects/ros2-learning/chapt4/install/demo_python_service/lib/python3.8/site-packages/demo_python_service
+[0.607s] byte-compiling /home/yunfeibi/Ros_projects/ros2-learning/chapt4/install/demo_python_service/lib/python3.8/site-packages/demo_python_service/learn_face_detect.py to learn_face_detect.cpython-38.pyc
+[0.607s] byte-compiling /home/yunfeibi/Ros_projects/ros2-learning/chapt4/install/demo_python_service/lib/python3.8/site-packages/demo_python_service/face_detect_node.py to face_detect_node.cpython-38.pyc
+[0.608s] byte-compiling /home/yunfeibi/Ros_projects/ros2-learning/chapt4/install/demo_python_service/lib/python3.8/site-packages/demo_python_service/__init__.py to __init__.cpython-38.pyc
+[0.608s] byte-compiling /home/yunfeibi/Ros_projects/ros2-learning/chapt4/install/demo_python_service/lib/python3.8/site-packages/demo_python_service/face_detect_client_node.py to face_detect_client_node.cpython-38.pyc
+[0.608s] running install_data
+[0.608s] creating /home/yunfeibi/Ros_projects/ros2-learning/chapt4/install/demo_python_service/share
+[0.609s] creating /home/yunfeibi/Ros_projects/ros2-learning/chapt4/install/demo_python_service/share/ament_index
+[0.609s] creating /home/yunfeibi/Ros_projects/ros2-learning/chapt4/install/demo_python_service/share/ament_index/resource_index
+[0.609s] creating /home/yunfeibi/Ros_projects/ros2-learning/chapt4/install/demo_python_service/share/ament_index/resource_index/packages
+[0.609s] copying resource/demo_python_service -> /home/yunfeibi/Ros_projects/ros2-learning/chapt4/install/demo_python_service/share/ament_index/resource_index/packages
+[0.609s] creating /home/yunfeibi/Ros_projects/ros2-learning/chapt4/install/demo_python_service/share/demo_python_service
+[0.609s] copying package.xml -> /home/yunfeibi/Ros_projects/ros2-learning/chapt4/install/demo_python_service/share/demo_python_service
+[0.609s] running install_egg_info
+[0.610s] Copying ../build/demo_python_service/demo_python_service.egg-info to /home/yunfeibi/Ros_projects/ros2-learning/chapt4/install/demo_python_service/lib/python3.8/site-packages/demo_python_service-0.0.0-py3.8.egg-info
+[0.610s] running install_scripts
+[0.621s] Installing face_detect_client_node script to /home/yunfeibi/Ros_projects/ros2-learning/chapt4/install/demo_python_service/lib/demo_python_service
+[0.621s] Installing face_detect_node script to /home/yunfeibi/Ros_projects/ros2-learning/chapt4/install/demo_python_service/lib/demo_python_service
+[0.622s] Installing learn_face_detect script to /home/yunfeibi/Ros_projects/ros2-learning/chapt4/install/demo_python_service/lib/demo_python_service
+[0.622s] writing list of installed files to '/home/yunfeibi/Ros_projects/ros2-learning/chapt4/build/demo_python_service/install.log'
+[0.636s] Invoked command in '/home/yunfeibi/Ros_projects/ros2-learning/chapt4/demo_python_service' returned '0': CONDA_PROMPT_MODIFIER=(yxros) PYTHONPATH=/home/yunfeibi/Ros_projects/ros2-learning/chapt4/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yunfeibi/Ros_projects/ros2-learning/chapt4/install/demo_python_service/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/demo_python_service build --build-base /home/yunfeibi/Ros_projects/ros2-learning/chapt4/build/demo_python_service/build install --record /home/yunfeibi/Ros_projects/ros2-learning/chapt4/build/demo_python_service/install.log --install-scripts $base/lib/demo_python_service --single-version-externally-managed install_data

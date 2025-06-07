@@ -1,0 +1,7 @@
+{
+  "package_name": "chapt4_interfaces",
+  "non_idl_tuples": [
+    "/home/yunfeibi/Ros_projects/ros2-learning/chapt4/chapt4_interfaces:srv/FaceDetector.srv",
+    "/home/yunfeibi/Ros_projects/ros2-learning/chapt4/chapt4_interfaces:srv/Patrol.srv"
+  ]
+}

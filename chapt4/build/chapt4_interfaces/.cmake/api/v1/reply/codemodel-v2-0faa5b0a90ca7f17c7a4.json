@@ -1,0 +1,213 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				},
+				{
+					"build" : "chapt4_interfaces__py",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/yunfeibi/Ros_projects/ros2-learning/chapt4/build/chapt4_interfaces/chapt4_interfaces__py",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "chapt4_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "chapt4_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapt4_interfaces-88b00f6fdf4306541c71.json",
+					"name" : "chapt4_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chapt4_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapt4_interfaces__cpp-1a0558a7be2c7387031e.json",
+					"name" : "chapt4_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "chapt4_interfaces__py::@3cda7fbb13ad9cc60403",
+					"jsonFile" : "target-chapt4_interfaces__py-943701a14d5a7fd6e1f1.json",
+					"name" : "chapt4_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chapt4_interfaces__python::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapt4_interfaces__python-d163a4917ca2a951432e.json",
+					"name" : "chapt4_interfaces__python",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chapt4_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapt4_interfaces__rosidl_generator_c-7cdaf651c70ab32f3360.json",
+					"name" : "chapt4_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chapt4_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapt4_interfaces__rosidl_typesupport_c-1b8d6c90321d9e594170.json",
+					"name" : "chapt4_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chapt4_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapt4_interfaces__rosidl_typesupport_c__pyext-242182f641d89eacef2f.json",
+					"name" : "chapt4_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chapt4_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapt4_interfaces__rosidl_typesupport_cpp-54a7b05367f1e71b5ad2.json",
+					"name" : "chapt4_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chapt4_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapt4_interfaces__rosidl_typesupport_fastrtps_c-b15897bcb8f014c1e29e.json",
+					"name" : "chapt4_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chapt4_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapt4_interfaces__rosidl_typesupport_fastrtps_c__pyext-8e25654d6b236bfbfed2.json",
+					"name" : "chapt4_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chapt4_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapt4_interfaces__rosidl_typesupport_fastrtps_cpp-ceb8547c4e0b45b0491d.json",
+					"name" : "chapt4_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chapt4_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapt4_interfaces__rosidl_typesupport_introspection_c-557e58b53919430922c3.json",
+					"name" : "chapt4_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chapt4_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapt4_interfaces__rosidl_typesupport_introspection_c__pyext-86b151f9a8523c9a4492.json",
+					"name" : "chapt4_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chapt4_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapt4_interfaces__rosidl_typesupport_introspection_cpp-a9c387f433b9c26f8514.json",
+					"name" : "chapt4_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chapt4_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapt4_interfaces_uninstall-9ae3b8e077aea3782070.json",
+					"name" : "chapt4_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4ad47a07f5ee7d2d372b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yunfeibi/Ros_projects/ros2-learning/chapt4/build/chapt4_interfaces",
+		"source" : "/home/yunfeibi/Ros_projects/ros2-learning/chapt4/chapt4_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

@@ -1,0 +1,79 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/home/yunfeibi/Ros_projects/ros2-learning/chapt4/build/chapt4_interfaces/chapt4_interfaces__py/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "chapt4_interfaces::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "chapt4_interfaces__py::@3cda7fbb13ad9cc60403",
+	"name" : "chapt4_interfaces__py",
+	"paths" : 
+	{
+		"build" : "chapt4_interfaces__py",
+		"source" : "/home/yunfeibi/Ros_projects/ros2-learning/chapt4/build/chapt4_interfaces/chapt4_interfaces__py"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/yunfeibi/Ros_projects/ros2-learning/chapt4/build/chapt4_interfaces/chapt4_interfaces__py/CMakeFiles/chapt4_interfaces__py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/yunfeibi/Ros_projects/ros2-learning/chapt4/build/chapt4_interfaces/chapt4_interfaces__py/CMakeFiles/chapt4_interfaces__py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/yunfeibi/Ros_projects/ros2-learning/chapt4/build/chapt4_interfaces/rosidl_generator_py/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

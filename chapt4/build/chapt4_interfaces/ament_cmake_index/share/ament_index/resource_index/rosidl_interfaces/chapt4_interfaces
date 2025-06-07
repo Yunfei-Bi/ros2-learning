@@ -1,0 +1,8 @@
+srv/FaceDetector.idl
+srv/FaceDetector.srv
+srv/FaceDetector_Request.msg
+srv/FaceDetector_Response.msg
+srv/Patrol.idl
+srv/Patrol.srv
+srv/Patrol_Request.msg
+srv/Patrol_Response.msg
