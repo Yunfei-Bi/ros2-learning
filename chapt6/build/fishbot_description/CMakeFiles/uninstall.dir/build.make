@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yunfeibi/Ros_projects/chapt6_ws/src/fishbot_description
+CMAKE_SOURCE_DIR = /home/yunfeibi/Ros_projects/ros2-learning/chapt6/src/fishbot_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yunfeibi/Ros_projects/chapt6_ws/build/fishbot_description
+CMAKE_BINARY_DIR = /home/yunfeibi/Ros_projects/ros2-learning/chapt6/build/fishbot_description
 
 # Utility rule file for uninstall.
 
@@ -67,6 +67,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/yunfeibi/Ros_projects/chapt6_ws/build/fishbot_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yunfeibi/Ros_projects/chapt6_ws/src/fishbot_description /home/yunfeibi/Ros_projects/chapt6_ws/src/fishbot_description /home/yunfeibi/Ros_projects/chapt6_ws/build/fishbot_description /home/yunfeibi/Ros_projects/chapt6_ws/build/fishbot_description /home/yunfeibi/Ros_projects/chapt6_ws/build/fishbot_description/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yunfeibi/Ros_projects/ros2-learning/chapt6/build/fishbot_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yunfeibi/Ros_projects/ros2-learning/chapt6/src/fishbot_description /home/yunfeibi/Ros_projects/ros2-learning/chapt6/src/fishbot_description /home/yunfeibi/Ros_projects/ros2-learning/chapt6/build/fishbot_description /home/yunfeibi/Ros_projects/ros2-learning/chapt6/build/fishbot_description /home/yunfeibi/Ros_projects/ros2-learning/chapt6/build/fishbot_description/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

@@ -1,0 +1,3 @@
+[console_scripts]
+timesync_test = learn_message_filter_py.timesync_test:main
+

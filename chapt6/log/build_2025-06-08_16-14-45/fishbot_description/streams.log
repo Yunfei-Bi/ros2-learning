@@ -1,0 +1,78 @@
+[0.011s] Invoking command in '/home/yunfeibi/Ros_projects/ros2-learning/chapt6/build/fishbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake /home/yunfeibi/Ros_projects/ros2-learning/chapt6/src/fishbot_description -DCMAKE_INSTALL_PREFIX=/home/yunfeibi/Ros_projects/ros2-learning/chapt6/install/fishbot_description
+[0.068s] -- The C compiler identification is GNU 9.4.0
+[0.127s] -- The CXX compiler identification is GNU 9.4.0
+[0.131s] -- Check for working C compiler: /usr/bin/cc
+[0.209s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.210s] -- Detecting C compiler ABI info
+[0.285s] -- Detecting C compiler ABI info - done
+[0.297s] -- Detecting C compile features
+[0.297s] -- Detecting C compile features - done
+[0.299s] -- Check for working CXX compiler: /usr/bin/c++
+[0.379s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.380s] -- Detecting CXX compiler ABI info
+[0.467s] -- Detecting CXX compiler ABI info - done
+[0.479s] -- Detecting CXX compile features
+[0.480s] -- Detecting CXX compile features - done
+[0.482s] -- Found ament_cmake: 1.2.1 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.586s] -- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
+[0.650s] -- Found ament_lint_auto: 0.11.4 (/opt/ros/rolling/share/ament_lint_auto/cmake)
+[0.717s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.721s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.722s] -- Added test 'lint_cmake' to check CMake code style
+[0.723s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.725s] -- Added test 'xmllint' to check XML markup files
+[0.727s] -- Configuring done
+[0.728s] -- Generating done
+[0.730s] -- Build files have been written to: /home/yunfeibi/Ros_projects/ros2-learning/chapt6/build/fishbot_description
+[0.733s] Invoked command in '/home/yunfeibi/Ros_projects/ros2-learning/chapt6/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake /home/yunfeibi/Ros_projects/ros2-learning/chapt6/src/fishbot_description -DCMAKE_INSTALL_PREFIX=/home/yunfeibi/Ros_projects/ros2-learning/chapt6/install/fishbot_description
+[0.736s] Invoking command in '/home/yunfeibi/Ros_projects/ros2-learning/chapt6/build/fishbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /home/yunfeibi/Ros_projects/ros2-learning/chapt6/build/fishbot_description -- -j12 -l12
+[0.780s] Invoked command in '/home/yunfeibi/Ros_projects/ros2-learning/chapt6/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /home/yunfeibi/Ros_projects/ros2-learning/chapt6/build/fishbot_description -- -j12 -l12
+[0.797s] Invoking command in '/home/yunfeibi/Ros_projects/ros2-learning/chapt6/build/fishbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --install /home/yunfeibi/Ros_projects/ros2-learning/chapt6/build/fishbot_description
+[0.803s] -- Install configuration: ""
+[0.803s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt6/install/fishbot_description/share/fishbot_description/launch
+[0.803s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt6/install/fishbot_description/share/fishbot_description/launch/__pycache__
+[0.803s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt6/install/fishbot_description/share/fishbot_description/launch/__pycache__/display_robot.launch.cpython-38.pyc
+[0.803s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt6/install/fishbot_description/share/fishbot_description/launch/gazebo_sim.launch.py
+[0.803s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt6/install/fishbot_description/share/fishbot_description/launch/display_robot.launch.py
+[0.803s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt6/install/fishbot_description/share/fishbot_description/urdf
+[0.803s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt6/install/fishbot_description/share/fishbot_description/urdf/first_robot.xacro
+[0.804s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt6/install/fishbot_description/share/fishbot_description/urdf/first_robot.pdf
+[0.804s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt6/install/fishbot_description/share/fishbot_description/urdf/fishbot
+[0.804s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt6/install/fishbot_description/share/fishbot_description/urdf/fishbot/plugins
+[0.804s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt6/install/fishbot_description/share/fishbot_description/urdf/fishbot/plugins/gazebo_control_plugin.xacro
+[0.804s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt6/install/fishbot_description/share/fishbot_description/urdf/fishbot/plugins/gazebo_sensor_plugin.xacro
+[0.804s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt6/install/fishbot_description/share/fishbot_description/urdf/fishbot/actuator
+[0.804s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt6/install/fishbot_description/share/fishbot_description/urdf/fishbot/actuator/wheel.urdf.xacro
+[0.804s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt6/install/fishbot_description/share/fishbot_description/urdf/fishbot/actuator/caster.urdf.xacro
+[0.804s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt6/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor
+[0.804s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt6/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor/imu.urdf.xacro
+[0.804s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt6/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor/laser.urdf.xacro
+[0.805s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt6/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor/camera.urdf.xacro
+[0.805s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt6/install/fishbot_description/share/fishbot_description/urdf/fishbot/common_inertia.xacro
+[0.805s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt6/install/fishbot_description/share/fishbot_description/urdf/fishbot/base.urdf.xacro
+[0.805s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt6/install/fishbot_description/share/fishbot_description/urdf/fishbot/fishbot.urdf.xacro
+[0.805s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt6/install/fishbot_description/share/fishbot_description/urdf/first_robot.gv
+[0.805s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt6/install/fishbot_description/share/fishbot_description/urdf/first_robot.urdf
+[0.805s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt6/install/fishbot_description/share/fishbot_description/config
+[0.805s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt6/install/fishbot_description/share/fishbot_description/config/display_robot_model.rviz
+[0.805s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt6/install/fishbot_description/share/fishbot_description/world
+[0.805s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt6/install/fishbot_description/share/fishbot_description/world/room
+[0.805s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt6/install/fishbot_description/share/fishbot_description/world/room/model.sdf
+[0.806s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt6/install/fishbot_description/share/fishbot_description/world/room/model.config
+[0.806s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt6/install/fishbot_description/share/fishbot_description/world/custom_room.world
+[0.806s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt6/install/fishbot_description/share/ament_index/resource_index/package_run_dependencies/fishbot_description
+[0.806s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt6/install/fishbot_description/share/ament_index/resource_index/parent_prefix_path/fishbot_description
+[0.806s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt6/install/fishbot_description/share/fishbot_description/environment/ament_prefix_path.sh
+[0.806s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt6/install/fishbot_description/share/fishbot_description/environment/ament_prefix_path.dsv
+[0.807s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt6/install/fishbot_description/share/fishbot_description/environment/path.sh
+[0.807s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt6/install/fishbot_description/share/fishbot_description/environment/path.dsv
+[0.807s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt6/install/fishbot_description/share/fishbot_description/local_setup.bash
+[0.807s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt6/install/fishbot_description/share/fishbot_description/local_setup.sh
+[0.807s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt6/install/fishbot_description/share/fishbot_description/local_setup.zsh
+[0.807s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt6/install/fishbot_description/share/fishbot_description/local_setup.dsv
+[0.807s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt6/install/fishbot_description/share/fishbot_description/package.dsv
+[0.807s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt6/install/fishbot_description/share/ament_index/resource_index/packages/fishbot_description
+[0.808s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt6/install/fishbot_description/share/fishbot_description/cmake/fishbot_descriptionConfig.cmake
+[0.808s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt6/install/fishbot_description/share/fishbot_description/cmake/fishbot_descriptionConfig-version.cmake
+[0.808s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt6/install/fishbot_description/share/fishbot_description/package.xml
+[0.810s] Invoked command in '/home/yunfeibi/Ros_projects/ros2-learning/chapt6/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --install /home/yunfeibi/Ros_projects/ros2-learning/chapt6/build/fishbot_description

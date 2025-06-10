@@ -1,0 +1,78 @@
+[0.065s] Invoking command in '/home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_compose': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_qos_py:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_message_filter_py:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_lifecyclenode_py:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_executor_py:/opt/ros/rolling /usr/bin/cmake /home/yunfeibi/Ros_projects/ros2-learning/chapt10/src/learn_compose -DCMAKE_INSTALL_PREFIX=/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_compose
+[0.797s] -- The C compiler identification is GNU 9.4.0
+[0.798s] -- The CXX compiler identification is GNU 9.4.0
+[0.798s] -- Check for working C compiler: /usr/bin/cc
+[0.798s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.798s] -- Detecting C compiler ABI info
+[0.798s] -- Detecting C compiler ABI info - done
+[0.798s] -- Detecting C compile features
+[0.799s] -- Detecting C compile features - done
+[0.799s] -- Check for working CXX compiler: /usr/bin/c++
+[0.799s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.799s] -- Detecting CXX compiler ABI info
+[0.800s] -- Detecting CXX compiler ABI info - done
+[0.800s] -- Detecting CXX compile features
+[0.800s] -- Detecting CXX compile features - done
+[0.801s] -- Found ament_cmake: 1.2.1 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.801s] -- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
+[0.802s] -- Found rclcpp: 15.0.0 (/opt/ros/rolling/share/rclcpp/cmake)
+[0.802s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.802s] -- Found rosidl_adapter: 3.0.1 (/opt/ros/rolling/share/rosidl_adapter/cmake)
+[0.802s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.804s] -- Found rmw_implementation_cmake: 5.1.0 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+[0.804s] -- Found rmw_cyclonedds_cpp: 1.1.2 (/opt/ros/rolling/share/rmw_cyclonedds_cpp/cmake)
+[0.804s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.902s] -- Found rclcpp_components: 15.0.0 (/opt/ros/rolling/share/rclcpp_components/cmake)
+[0.973s] -- Found ament_lint_auto: 0.11.4 (/opt/ros/rolling/share/ament_lint_auto/cmake)
+[1.054s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.055s] -- Configured cppcheck include dirs: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/src/learn_compose/include
+[1.055s] -- Configured cppcheck exclude dirs and/or files: 
+[1.056s] -- Added test 'lint_cmake' to check CMake code style
+[1.057s] -- Added test 'uncrustify' to check C / C++ code style
+[1.057s] -- Configured uncrustify additional arguments: 
+[1.058s] -- Added test 'xmllint' to check XML markup files
+[1.063s] -- Configuring done
+[1.084s] -- Generating done
+[1.096s] -- Build files have been written to: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_compose
+[1.109s] Invoked command in '/home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_compose' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_qos_py:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_message_filter_py:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_lifecyclenode_py:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_executor_py:/opt/ros/rolling /usr/bin/cmake /home/yunfeibi/Ros_projects/ros2-learning/chapt10/src/learn_compose -DCMAKE_INSTALL_PREFIX=/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_compose
+[1.110s] Invoking command in '/home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_compose': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_qos_py:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_message_filter_py:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_lifecyclenode_py:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_executor_py:/opt/ros/rolling /usr/bin/cmake --build /home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_compose -- -j12 -l12
+[1.164s] [35m[1mScanning dependencies of target listener_component[0m
+[1.164s] [35m[1mScanning dependencies of target intra_process_pubsub[0m
+[1.164s] [35m[1mScanning dependencies of target talker_component[0m
+[1.217s] [ 12%] [32mBuilding CXX object CMakeFiles/listener_component.dir/src/listener.cpp.o[0m
+[1.230s] [ 25%] [32mBuilding CXX object CMakeFiles/talker_component.dir/src/talker.cpp.o[0m
+[1.242s] [ 37%] [32mBuilding CXX object CMakeFiles/intra_process_pubsub.dir/src/intra_process_pubsub.cpp.o[0m
+[1.253s] [ 50%] [32mBuilding CXX object CMakeFiles/intra_process_pubsub.dir/src/talker.cpp.o[0m
+[1.278s] [ 62%] [32mBuilding CXX object CMakeFiles/intra_process_pubsub.dir/src/listener.cpp.o[0m
+[5.713s] [ 75%] [32m[1mLinking CXX shared library libtalker_component.so[0m
+[5.853s] [ 75%] Built target talker_component
+[8.514s] [ 87%] [32m[1mLinking CXX executable intra_process_pubsub[0m
+[8.776s] [ 87%] Built target intra_process_pubsub
+[8.829s] [100%] [32m[1mLinking CXX shared library liblistener_component.so[0m
+[9.074s] [100%] Built target listener_component
+[9.084s] Invoked command in '/home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_compose' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_qos_py:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_message_filter_py:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_lifecyclenode_py:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_executor_py:/opt/ros/rolling /usr/bin/cmake --build /home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_compose -- -j12 -l12
+[9.088s] Invoking command in '/home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_compose': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_qos_py:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_message_filter_py:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_lifecyclenode_py:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_executor_py:/opt/ros/rolling /usr/bin/cmake --install /home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_compose
+[9.095s] -- Install configuration: ""
+[9.095s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_compose/lib/learn_compose/intra_process_pubsub
+[9.100s] -- Set runtime path of "/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_compose/lib/learn_compose/intra_process_pubsub" to ""
+[9.100s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_compose/lib/libtalker_component.so
+[9.102s] -- Set runtime path of "/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_compose/lib/libtalker_component.so" to ""
+[9.103s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_compose/lib/liblistener_component.so
+[9.109s] -- Set runtime path of "/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_compose/lib/liblistener_component.so" to ""
+[9.109s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_compose/share/ament_index/resource_index/package_run_dependencies/learn_compose
+[9.109s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_compose/share/ament_index/resource_index/parent_prefix_path/learn_compose
+[9.110s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_compose/share/learn_compose/environment/ament_prefix_path.sh
+[9.110s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_compose/share/learn_compose/environment/ament_prefix_path.dsv
+[9.110s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_compose/share/learn_compose/environment/path.sh
+[9.110s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_compose/share/learn_compose/environment/path.dsv
+[9.110s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_compose/share/learn_compose/local_setup.bash
+[9.110s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_compose/share/learn_compose/local_setup.sh
+[9.110s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_compose/share/learn_compose/local_setup.zsh
+[9.111s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_compose/share/learn_compose/local_setup.dsv
+[9.111s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_compose/share/learn_compose/package.dsv
+[9.111s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_compose/share/ament_index/resource_index/packages/learn_compose
+[9.111s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_compose/share/ament_index/resource_index/rclcpp_components/learn_compose
+[9.111s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_compose/share/learn_compose/cmake/learn_composeConfig.cmake
+[9.112s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_compose/share/learn_compose/cmake/learn_composeConfig-version.cmake
+[9.112s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_compose/share/learn_compose/package.xml
+[9.114s] Invoked command in '/home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_compose' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_qos_py:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_message_filter_py:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_lifecyclenode_py:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_executor_py:/opt/ros/rolling /usr/bin/cmake --install /home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_compose

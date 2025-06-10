@@ -1,0 +1,57 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.2.1 (/opt/ros/rolling/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
+-- Found rclcpp: 15.0.0 (/opt/ros/rolling/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 3.0.1 (/opt/ros/rolling/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 5.1.0 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.1.2 (/opt/ros/rolling/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found rclcpp_lifecycle: 15.0.0 (/opt/ros/rolling/share/rclcpp_lifecycle/cmake)
+-- Found ament_lint_auto: 0.11.4 (/opt/ros/rolling/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_lifecyclenode_cpp
+[35m[1mScanning dependencies of target learn_lifecyclenode[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/learn_lifecyclenode.dir/src/learn_lifecyclenode.cpp.o[0m
+[100%] [32m[1mLinking CXX executable learn_lifecyclenode[0m
+[100%] Built target learn_lifecyclenode
+-- Install configuration: ""
+-- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_lifecyclenode_cpp/lib/learn_lifecyclenode_cpp/learn_lifecyclenode
+-- Set runtime path of "/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_lifecyclenode_cpp/lib/learn_lifecyclenode_cpp/learn_lifecyclenode" to ""
+-- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_lifecyclenode_cpp/share/ament_index/resource_index/package_run_dependencies/learn_lifecyclenode_cpp
+-- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_lifecyclenode_cpp/share/ament_index/resource_index/parent_prefix_path/learn_lifecyclenode_cpp
+-- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_lifecyclenode_cpp/share/learn_lifecyclenode_cpp/environment/ament_prefix_path.sh
+-- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_lifecyclenode_cpp/share/learn_lifecyclenode_cpp/environment/ament_prefix_path.dsv
+-- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_lifecyclenode_cpp/share/learn_lifecyclenode_cpp/environment/path.sh
+-- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_lifecyclenode_cpp/share/learn_lifecyclenode_cpp/environment/path.dsv
+-- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_lifecyclenode_cpp/share/learn_lifecyclenode_cpp/local_setup.bash
+-- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_lifecyclenode_cpp/share/learn_lifecyclenode_cpp/local_setup.sh
+-- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_lifecyclenode_cpp/share/learn_lifecyclenode_cpp/local_setup.zsh
+-- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_lifecyclenode_cpp/share/learn_lifecyclenode_cpp/local_setup.dsv
+-- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_lifecyclenode_cpp/share/learn_lifecyclenode_cpp/package.dsv
+-- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_lifecyclenode_cpp/share/ament_index/resource_index/packages/learn_lifecyclenode_cpp
+-- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_lifecyclenode_cpp/share/learn_lifecyclenode_cpp/cmake/learn_lifecyclenode_cppConfig.cmake
+-- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_lifecyclenode_cpp/share/learn_lifecyclenode_cpp/cmake/learn_lifecyclenode_cppConfig-version.cmake
+-- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_lifecyclenode_cpp/share/learn_lifecyclenode_cpp/package.xml

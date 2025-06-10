@@ -1,0 +1,3 @@
+[console_scripts]
+reliability_test = learn_qos_py.reliability_test:main
+

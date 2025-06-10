@@ -1,0 +1,37 @@
+[1.177s] Invoking command in '/home/yunfeibi/Ros_projects/ros2-learning/chapt10/src/learn_executor_py': PYTHONPATH=/home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_executor_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_executor_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learn_executor_py build --build-base /home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_executor_py/build install --record /home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_executor_py/install.log --single-version-externally-managed install_data
+[1.446s] running egg_info
+[1.447s] creating ../../build/learn_executor_py/learn_executor_py.egg-info
+[1.447s] writing ../../build/learn_executor_py/learn_executor_py.egg-info/PKG-INFO
+[1.447s] writing dependency_links to ../../build/learn_executor_py/learn_executor_py.egg-info/dependency_links.txt
+[1.447s] writing entry points to ../../build/learn_executor_py/learn_executor_py.egg-info/entry_points.txt
+[1.447s] writing requirements to ../../build/learn_executor_py/learn_executor_py.egg-info/requires.txt
+[1.448s] writing top-level names to ../../build/learn_executor_py/learn_executor_py.egg-info/top_level.txt
+[1.449s] writing manifest file '../../build/learn_executor_py/learn_executor_py.egg-info/SOURCES.txt'
+[1.485s] reading manifest file '../../build/learn_executor_py/learn_executor_py.egg-info/SOURCES.txt'
+[1.486s] writing manifest file '../../build/learn_executor_py/learn_executor_py.egg-info/SOURCES.txt'
+[1.486s] running build
+[1.487s] running build_py
+[1.487s] creating /home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_executor_py/build
+[1.487s] creating /home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_executor_py/build/lib
+[1.487s] creating /home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_executor_py/build/lib/learn_executor_py
+[1.487s] copying learn_executor_py/learn_executor.py -> /home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_executor_py/build/lib/learn_executor_py
+[1.487s] copying learn_executor_py/__init__.py -> /home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_executor_py/build/lib/learn_executor_py
+[1.487s] running install
+[1.488s] running install_lib
+[1.489s] creating /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_executor_py/lib/python3.8/site-packages/learn_executor_py
+[1.489s] copying /home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_executor_py/build/lib/learn_executor_py/learn_executor.py -> /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_executor_py/lib/python3.8/site-packages/learn_executor_py
+[1.489s] copying /home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_executor_py/build/lib/learn_executor_py/__init__.py -> /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_executor_py/lib/python3.8/site-packages/learn_executor_py
+[1.490s] byte-compiling /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_executor_py/lib/python3.8/site-packages/learn_executor_py/learn_executor.py to learn_executor.cpython-38.pyc
+[1.491s] byte-compiling /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_executor_py/lib/python3.8/site-packages/learn_executor_py/__init__.py to __init__.cpython-38.pyc
+[1.492s] running install_data
+[1.492s] creating /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_executor_py/share/ament_index
+[1.492s] creating /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_executor_py/share/ament_index/resource_index
+[1.493s] creating /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_executor_py/share/ament_index/resource_index/packages
+[1.493s] copying resource/learn_executor_py -> /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_executor_py/share/ament_index/resource_index/packages
+[1.493s] copying package.xml -> /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_executor_py/share/learn_executor_py
+[1.493s] running install_egg_info
+[1.495s] Copying ../../build/learn_executor_py/learn_executor_py.egg-info to /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_executor_py/lib/python3.8/site-packages/learn_executor_py-0.0.0-py3.8.egg-info
+[1.497s] running install_scripts
+[1.513s] Installing learn_executor script to /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_executor_py/lib/learn_executor_py
+[1.513s] writing list of installed files to '/home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_executor_py/install.log'
+[1.575s] Invoked command in '/home/yunfeibi/Ros_projects/ros2-learning/chapt10/src/learn_executor_py' returned '0': PYTHONPATH=/home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_executor_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_executor_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learn_executor_py build --build-base /home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_executor_py/build install --record /home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_executor_py/install.log --single-version-externally-managed install_data

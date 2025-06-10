@@ -67,6 +67,9 @@
         "strstream": "cpp",
         "list": "cpp",
         "cfenv": "cpp",
-        "variant": "cpp"
-    }
+        "variant": "cpp",
+        "forward_list": "cpp",
+        "unordered_set": "cpp"
+    },
+    "cmake.sourceDirectory": "/home/yunfeibi/Ros_projects/ros2-learning/chapt1"
 }

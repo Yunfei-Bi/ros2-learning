@@ -1,0 +1,3 @@
+[console_scripts]
+learn_executor = learn_executor_py.learn_executor:main
+

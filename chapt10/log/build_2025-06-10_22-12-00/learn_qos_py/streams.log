@@ -1,0 +1,37 @@
+[1.176s] Invoking command in '/home/yunfeibi/Ros_projects/ros2-learning/chapt10/src/learn_qos_py': PYTHONPATH=/home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_qos_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_qos_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learn_qos_py build --build-base /home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_qos_py/build install --record /home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_qos_py/install.log --single-version-externally-managed install_data
+[1.458s] running egg_info
+[1.458s] creating ../../build/learn_qos_py/learn_qos_py.egg-info
+[1.458s] writing ../../build/learn_qos_py/learn_qos_py.egg-info/PKG-INFO
+[1.459s] writing dependency_links to ../../build/learn_qos_py/learn_qos_py.egg-info/dependency_links.txt
+[1.459s] writing entry points to ../../build/learn_qos_py/learn_qos_py.egg-info/entry_points.txt
+[1.459s] writing requirements to ../../build/learn_qos_py/learn_qos_py.egg-info/requires.txt
+[1.459s] writing top-level names to ../../build/learn_qos_py/learn_qos_py.egg-info/top_level.txt
+[1.461s] writing manifest file '../../build/learn_qos_py/learn_qos_py.egg-info/SOURCES.txt'
+[1.508s] reading manifest file '../../build/learn_qos_py/learn_qos_py.egg-info/SOURCES.txt'
+[1.509s] writing manifest file '../../build/learn_qos_py/learn_qos_py.egg-info/SOURCES.txt'
+[1.509s] running build
+[1.509s] running build_py
+[1.510s] creating /home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_qos_py/build
+[1.510s] creating /home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_qos_py/build/lib
+[1.510s] creating /home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_qos_py/build/lib/learn_qos_py
+[1.510s] copying learn_qos_py/reliability_test.py -> /home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_qos_py/build/lib/learn_qos_py
+[1.510s] copying learn_qos_py/__init__.py -> /home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_qos_py/build/lib/learn_qos_py
+[1.510s] running install
+[1.511s] running install_lib
+[1.513s] creating /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_qos_py/lib/python3.8/site-packages/learn_qos_py
+[1.513s] copying /home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_qos_py/build/lib/learn_qos_py/reliability_test.py -> /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_qos_py/lib/python3.8/site-packages/learn_qos_py
+[1.513s] copying /home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_qos_py/build/lib/learn_qos_py/__init__.py -> /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_qos_py/lib/python3.8/site-packages/learn_qos_py
+[1.516s] byte-compiling /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_qos_py/lib/python3.8/site-packages/learn_qos_py/reliability_test.py to reliability_test.cpython-38.pyc
+[1.517s] byte-compiling /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_qos_py/lib/python3.8/site-packages/learn_qos_py/__init__.py to __init__.cpython-38.pyc
+[1.517s] running install_data
+[1.517s] creating /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_qos_py/share/ament_index
+[1.522s] creating /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_qos_py/share/ament_index/resource_index
+[1.523s] creating /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_qos_py/share/ament_index/resource_index/packages
+[1.523s] copying resource/learn_qos_py -> /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_qos_py/share/ament_index/resource_index/packages
+[1.523s] copying package.xml -> /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_qos_py/share/learn_qos_py
+[1.523s] running install_egg_info
+[1.530s] Copying ../../build/learn_qos_py/learn_qos_py.egg-info to /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_qos_py/lib/python3.8/site-packages/learn_qos_py-0.0.0-py3.8.egg-info
+[1.531s] running install_scripts
+[1.550s] Installing reliability_test script to /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_qos_py/lib/learn_qos_py
+[1.551s] writing list of installed files to '/home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_qos_py/install.log'
+[1.586s] Invoked command in '/home/yunfeibi/Ros_projects/ros2-learning/chapt10/src/learn_qos_py' returned '0': PYTHONPATH=/home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_qos_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_qos_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learn_qos_py build --build-base /home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_qos_py/build install --record /home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_qos_py/install.log --single-version-externally-managed install_data

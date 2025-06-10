@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "learn_lifecyclenode_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "learn_lifecyclenode::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-learn_lifecyclenode-65a3a012f10e10b7bd7d.json",
+					"name" : "learn_lifecyclenode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "learn_lifecyclenode_cpp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-learn_lifecyclenode_cpp_uninstall-5058f72c38d47f0d368e.json",
+					"name" : "learn_lifecyclenode_cpp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-bde1f4d82c994fd2cac8.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_lifecyclenode_cpp",
+		"source" : "/home/yunfeibi/Ros_projects/ros2-learning/chapt10/src/learn_lifecyclenode_cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

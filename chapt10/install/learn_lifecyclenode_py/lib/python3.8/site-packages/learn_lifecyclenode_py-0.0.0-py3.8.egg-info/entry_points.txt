@@ -1,0 +1,3 @@
+[console_scripts]
+lifecyclenode = learn_lifecyclenode_py.learn_lifecyclenode:main
+

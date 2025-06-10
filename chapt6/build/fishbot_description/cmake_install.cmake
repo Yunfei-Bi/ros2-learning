@@ -1,8 +1,8 @@
-# Install script for directory: /home/yunfeibi/Ros_projects/chapt6_ws/src/fishbot_description
+# Install script for directory: /home/yunfeibi/Ros_projects/ros2-learning/chapt6/src/fishbot_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/yunfeibi/Ros_projects/chapt6_ws/install/fishbot_description")
+  set(CMAKE_INSTALL_PREFIX "/home/yunfeibi/Ros_projects/ros2-learning/chapt6/install/fishbot_description")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,70 +39,70 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fishbot_description" TYPE DIRECTORY FILES
-    "/home/yunfeibi/Ros_projects/chapt6_ws/src/fishbot_description/launch"
-    "/home/yunfeibi/Ros_projects/chapt6_ws/src/fishbot_description/urdf"
-    "/home/yunfeibi/Ros_projects/chapt6_ws/src/fishbot_description/config"
-    "/home/yunfeibi/Ros_projects/chapt6_ws/src/fishbot_description/world"
+    "/home/yunfeibi/Ros_projects/ros2-learning/chapt6/src/fishbot_description/launch"
+    "/home/yunfeibi/Ros_projects/ros2-learning/chapt6/src/fishbot_description/urdf"
+    "/home/yunfeibi/Ros_projects/ros2-learning/chapt6/src/fishbot_description/config"
+    "/home/yunfeibi/Ros_projects/ros2-learning/chapt6/src/fishbot_description/world"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/yunfeibi/Ros_projects/chapt6_ws/build/fishbot_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/fishbot_description")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/yunfeibi/Ros_projects/ros2-learning/chapt6/build/fishbot_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/fishbot_description")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/yunfeibi/Ros_projects/chapt6_ws/build/fishbot_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/fishbot_description")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/yunfeibi/Ros_projects/ros2-learning/chapt6/build/fishbot_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/fishbot_description")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fishbot_description/environment" TYPE FILE FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fishbot_description/environment" TYPE FILE FILES "/opt/ros/rolling/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fishbot_description/environment" TYPE FILE FILES "/home/yunfeibi/Ros_projects/chapt6_ws/build/fishbot_description/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fishbot_description/environment" TYPE FILE FILES "/home/yunfeibi/Ros_projects/ros2-learning/chapt6/build/fishbot_description/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fishbot_description/environment" TYPE FILE FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fishbot_description/environment" TYPE FILE FILES "/opt/ros/rolling/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fishbot_description/environment" TYPE FILE FILES "/home/yunfeibi/Ros_projects/chapt6_ws/build/fishbot_description/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fishbot_description/environment" TYPE FILE FILES "/home/yunfeibi/Ros_projects/ros2-learning/chapt6/build/fishbot_description/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fishbot_description" TYPE FILE FILES "/home/yunfeibi/Ros_projects/chapt6_ws/build/fishbot_description/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fishbot_description" TYPE FILE FILES "/home/yunfeibi/Ros_projects/ros2-learning/chapt6/build/fishbot_description/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fishbot_description" TYPE FILE FILES "/home/yunfeibi/Ros_projects/chapt6_ws/build/fishbot_description/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fishbot_description" TYPE FILE FILES "/home/yunfeibi/Ros_projects/ros2-learning/chapt6/build/fishbot_description/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fishbot_description" TYPE FILE FILES "/home/yunfeibi/Ros_projects/chapt6_ws/build/fishbot_description/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fishbot_description" TYPE FILE FILES "/home/yunfeibi/Ros_projects/ros2-learning/chapt6/build/fishbot_description/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fishbot_description" TYPE FILE FILES "/home/yunfeibi/Ros_projects/chapt6_ws/build/fishbot_description/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fishbot_description" TYPE FILE FILES "/home/yunfeibi/Ros_projects/ros2-learning/chapt6/build/fishbot_description/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fishbot_description" TYPE FILE FILES "/home/yunfeibi/Ros_projects/chapt6_ws/build/fishbot_description/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fishbot_description" TYPE FILE FILES "/home/yunfeibi/Ros_projects/ros2-learning/chapt6/build/fishbot_description/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/yunfeibi/Ros_projects/chapt6_ws/build/fishbot_description/ament_cmake_index/share/ament_index/resource_index/packages/fishbot_description")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/yunfeibi/Ros_projects/ros2-learning/chapt6/build/fishbot_description/ament_cmake_index/share/ament_index/resource_index/packages/fishbot_description")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fishbot_description/cmake" TYPE FILE FILES
-    "/home/yunfeibi/Ros_projects/chapt6_ws/build/fishbot_description/ament_cmake_core/fishbot_descriptionConfig.cmake"
-    "/home/yunfeibi/Ros_projects/chapt6_ws/build/fishbot_description/ament_cmake_core/fishbot_descriptionConfig-version.cmake"
+    "/home/yunfeibi/Ros_projects/ros2-learning/chapt6/build/fishbot_description/ament_cmake_core/fishbot_descriptionConfig.cmake"
+    "/home/yunfeibi/Ros_projects/ros2-learning/chapt6/build/fishbot_description/ament_cmake_core/fishbot_descriptionConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fishbot_description" TYPE FILE FILES "/home/yunfeibi/Ros_projects/chapt6_ws/src/fishbot_description/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fishbot_description" TYPE FILE FILES "/home/yunfeibi/Ros_projects/ros2-learning/chapt6/src/fishbot_description/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -113,5 +113,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/yunfeibi/Ros_projects/chapt6_ws/build/fishbot_description/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/yunfeibi/Ros_projects/ros2-learning/chapt6/build/fishbot_description/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

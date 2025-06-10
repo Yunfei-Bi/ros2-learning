@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/learn_message_filter_py/learn_message_filter_py.egg-info
+writing ../../build/learn_message_filter_py/learn_message_filter_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/learn_message_filter_py/learn_message_filter_py.egg-info/dependency_links.txt
+writing entry points to ../../build/learn_message_filter_py/learn_message_filter_py.egg-info/entry_points.txt
+writing requirements to ../../build/learn_message_filter_py/learn_message_filter_py.egg-info/requires.txt
+writing top-level names to ../../build/learn_message_filter_py/learn_message_filter_py.egg-info/top_level.txt
+writing manifest file '../../build/learn_message_filter_py/learn_message_filter_py.egg-info/SOURCES.txt'
+reading manifest file '../../build/learn_message_filter_py/learn_message_filter_py.egg-info/SOURCES.txt'
+writing manifest file '../../build/learn_message_filter_py/learn_message_filter_py.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_message_filter_py/build
+creating /home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_message_filter_py/build/lib
+creating /home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_message_filter_py/build/lib/learn_message_filter_py
+copying learn_message_filter_py/timesync_test.py -> /home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_message_filter_py/build/lib/learn_message_filter_py
+copying learn_message_filter_py/__init__.py -> /home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_message_filter_py/build/lib/learn_message_filter_py
+running install
+running install_lib
+creating /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_message_filter_py/lib/python3.8/site-packages/learn_message_filter_py
+copying /home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_message_filter_py/build/lib/learn_message_filter_py/timesync_test.py -> /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_message_filter_py/lib/python3.8/site-packages/learn_message_filter_py
+copying /home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_message_filter_py/build/lib/learn_message_filter_py/__init__.py -> /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_message_filter_py/lib/python3.8/site-packages/learn_message_filter_py
+byte-compiling /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_message_filter_py/lib/python3.8/site-packages/learn_message_filter_py/timesync_test.py to timesync_test.cpython-38.pyc
+byte-compiling /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_message_filter_py/lib/python3.8/site-packages/learn_message_filter_py/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_message_filter_py/share/ament_index
+creating /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_message_filter_py/share/ament_index/resource_index
+creating /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_message_filter_py/share/ament_index/resource_index/packages
+copying resource/learn_message_filter_py -> /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_message_filter_py/share/ament_index/resource_index/packages
+copying package.xml -> /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_message_filter_py/share/learn_message_filter_py
+running install_egg_info
+Copying ../../build/learn_message_filter_py/learn_message_filter_py.egg-info to /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_message_filter_py/lib/python3.8/site-packages/learn_message_filter_py-0.0.0-py3.8.egg-info
+running install_scripts
+Installing timesync_test script to /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_message_filter_py/lib/learn_message_filter_py
+writing list of installed files to '/home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_message_filter_py/install.log'

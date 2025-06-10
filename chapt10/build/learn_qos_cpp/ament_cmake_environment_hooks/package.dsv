@@ -1,0 +1,4 @@
+source;share/learn_qos_cpp/local_setup.bash
+source;share/learn_qos_cpp/local_setup.dsv
+source;share/learn_qos_cpp/local_setup.sh
+source;share/learn_qos_cpp/local_setup.zsh

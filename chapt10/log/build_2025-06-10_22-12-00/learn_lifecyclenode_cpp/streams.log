@@ -1,0 +1,63 @@
+[0.232s] Invoking command in '/home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_lifecyclenode_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_qos_py:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_message_filter_py:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_lifecyclenode_py:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_executor_py:/opt/ros/rolling /usr/bin/cmake /home/yunfeibi/Ros_projects/ros2-learning/chapt10/src/learn_lifecyclenode_cpp -DCMAKE_INSTALL_PREFIX=/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_lifecyclenode_cpp
+[0.789s] -- The C compiler identification is GNU 9.4.0
+[0.789s] -- The CXX compiler identification is GNU 9.4.0
+[0.789s] -- Check for working C compiler: /usr/bin/cc
+[0.789s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.789s] -- Detecting C compiler ABI info
+[0.790s] -- Detecting C compiler ABI info - done
+[0.790s] -- Detecting C compile features
+[0.790s] -- Detecting C compile features - done
+[0.790s] -- Check for working CXX compiler: /usr/bin/c++
+[0.790s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.790s] -- Detecting CXX compiler ABI info
+[0.790s] -- Detecting CXX compiler ABI info - done
+[0.790s] -- Detecting CXX compile features
+[0.790s] -- Detecting CXX compile features - done
+[0.790s] -- Found ament_cmake: 1.2.1 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.791s] -- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
+[0.826s] -- Found rclcpp: 15.0.0 (/opt/ros/rolling/share/rclcpp/cmake)
+[0.886s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.894s] -- Found rosidl_adapter: 3.0.1 (/opt/ros/rolling/share/rosidl_adapter/cmake)
+[0.945s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.005s] -- Found rmw_implementation_cmake: 5.1.0 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+[1.007s] -- Found rmw_cyclonedds_cpp: 1.1.2 (/opt/ros/rolling/share/rmw_cyclonedds_cpp/cmake)
+[1.028s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.193s] -- Found rclcpp_lifecycle: 15.0.0 (/opt/ros/rolling/share/rclcpp_lifecycle/cmake)
+[1.235s] -- Found ament_lint_auto: 0.11.4 (/opt/ros/rolling/share/ament_lint_auto/cmake)
+[1.369s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.369s] -- Configured cppcheck include dirs: 
+[1.369s] -- Configured cppcheck exclude dirs and/or files: 
+[1.370s] -- Added test 'lint_cmake' to check CMake code style
+[1.380s] -- Added test 'uncrustify' to check C / C++ code style
+[1.380s] -- Configured uncrustify additional arguments: 
+[1.380s] -- Added test 'xmllint' to check XML markup files
+[1.385s] -- Configuring done
+[1.395s] -- Generating done
+[1.399s] -- Build files have been written to: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_lifecyclenode_cpp
+[1.407s] Invoked command in '/home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_lifecyclenode_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_qos_py:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_message_filter_py:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_lifecyclenode_py:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_executor_py:/opt/ros/rolling /usr/bin/cmake /home/yunfeibi/Ros_projects/ros2-learning/chapt10/src/learn_lifecyclenode_cpp -DCMAKE_INSTALL_PREFIX=/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_lifecyclenode_cpp
+[1.411s] Invoking command in '/home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_lifecyclenode_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_qos_py:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_message_filter_py:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_lifecyclenode_py:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_executor_py:/opt/ros/rolling /usr/bin/cmake --build /home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_lifecyclenode_cpp -- -j12 -l12
+[1.545s] [35m[1mScanning dependencies of target learn_lifecyclenode[0m
+[1.585s] [ 50%] [32mBuilding CXX object CMakeFiles/learn_lifecyclenode.dir/src/learn_lifecyclenode.cpp.o[0m
+[4.760s] [100%] [32m[1mLinking CXX executable learn_lifecyclenode[0m
+[4.871s] [100%] Built target learn_lifecyclenode
+[4.884s] Invoked command in '/home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_lifecyclenode_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_qos_py:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_message_filter_py:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_lifecyclenode_py:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_executor_py:/opt/ros/rolling /usr/bin/cmake --build /home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_lifecyclenode_cpp -- -j12 -l12
+[4.896s] Invoking command in '/home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_lifecyclenode_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_qos_py:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_message_filter_py:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_lifecyclenode_py:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_executor_py:/opt/ros/rolling /usr/bin/cmake --install /home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_lifecyclenode_cpp
+[4.907s] -- Install configuration: ""
+[4.907s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_lifecyclenode_cpp/lib/learn_lifecyclenode_cpp/learn_lifecyclenode
+[4.908s] -- Set runtime path of "/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_lifecyclenode_cpp/lib/learn_lifecyclenode_cpp/learn_lifecyclenode" to ""
+[4.909s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_lifecyclenode_cpp/share/ament_index/resource_index/package_run_dependencies/learn_lifecyclenode_cpp
+[4.909s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_lifecyclenode_cpp/share/ament_index/resource_index/parent_prefix_path/learn_lifecyclenode_cpp
+[4.909s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_lifecyclenode_cpp/share/learn_lifecyclenode_cpp/environment/ament_prefix_path.sh
+[4.909s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_lifecyclenode_cpp/share/learn_lifecyclenode_cpp/environment/ament_prefix_path.dsv
+[4.909s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_lifecyclenode_cpp/share/learn_lifecyclenode_cpp/environment/path.sh
+[4.910s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_lifecyclenode_cpp/share/learn_lifecyclenode_cpp/environment/path.dsv
+[4.910s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_lifecyclenode_cpp/share/learn_lifecyclenode_cpp/local_setup.bash
+[4.910s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_lifecyclenode_cpp/share/learn_lifecyclenode_cpp/local_setup.sh
+[4.910s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_lifecyclenode_cpp/share/learn_lifecyclenode_cpp/local_setup.zsh
+[4.910s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_lifecyclenode_cpp/share/learn_lifecyclenode_cpp/local_setup.dsv
+[4.910s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_lifecyclenode_cpp/share/learn_lifecyclenode_cpp/package.dsv
+[4.911s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_lifecyclenode_cpp/share/ament_index/resource_index/packages/learn_lifecyclenode_cpp
+[4.911s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_lifecyclenode_cpp/share/learn_lifecyclenode_cpp/cmake/learn_lifecyclenode_cppConfig.cmake
+[4.911s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_lifecyclenode_cpp/share/learn_lifecyclenode_cpp/cmake/learn_lifecyclenode_cppConfig-version.cmake
+[4.911s] -- Installing: /home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_lifecyclenode_cpp/share/learn_lifecyclenode_cpp/package.xml
+[4.914s] Invoked command in '/home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_lifecyclenode_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_qos_py:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_message_filter_py:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_lifecyclenode_py:/home/yunfeibi/Ros_projects/ros2-learning/chapt10/install/learn_executor_py:/opt/ros/rolling /usr/bin/cmake --install /home/yunfeibi/Ros_projects/ros2-learning/chapt10/build/learn_lifecyclenode_cpp
